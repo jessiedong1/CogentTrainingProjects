@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color:black;
+    width:100%;
+    height:60px;
+}
+#logo{
+    float: left;
+    color:white;
+    font-size : 20px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-left: 20px;
+}
+#nav{
+    float:center;
+    color:white;
+    line-height:60px;
+    margin-left: 500px;
+    text-align: center;
+}
+#nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li{
+    float:left;
+    margin-left: 30px;
+    
+}
+#logo a{
+    text-decoration: none;
+    color: white;
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+}
+#banner{
+    width: 100%;
+    height: 800px;
+/*
+    background-image: url("./img/ml.jpg");
+    background-repeat: no-repeat;
+*/
+    position: relative;
+    border-bottom: 6px solid #f5ab35;
+    background-color: #000000;
+}
+.good{
+    width: 300px;
+    height: 260px;
+    background-color:#1f2528;
+    text-align: center;
+    float: left;
+    margin-left: 25px;
+  
+}
+.good img{
+    padding-top: 20px;
+    width: 250px;
+    height: 240px;
+   
+}
+.good a{
+    color:white;
+    text-decoration: none;
+}
+.good p{
+    color:white;
+}
+.good:hover{
+    background-color:#f5ab35;
+}
+
+#goods{
+    width:1000px;
+    height: 260px;
+    position: absolute;
+    top: 450px;
+    left:50%;
+    margin-left: -500px;
+}
+#intro {
+    color: black;
+    background-color:white;
+    text-align: center;
+    width:100%;
+    float: left;
+}
+#intro h1{
+    font-size:80;
+}
